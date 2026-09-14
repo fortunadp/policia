@@ -1821,7 +1821,7 @@ const macrosInstruccion = [
 ["REUNION INSTRUCTORES", "/flobby INSTRUCTORES DE ACADEMIA FAVOR DE ACUDIR A REUNIÓN EN [ubicacion]."],
 ].map(([label, text], i) => ({cat:"Macros", sub:"Macros de Instrucción", code:`MI${i+1}`, label, macroText:text, isMacro:true}));
 
-const macros = [...macrosGenerales, ...macrosCodigo10, ...macrosInstruccion];
+const macros = [...macrosGenerales, ...macrosCodigo10]; // Macros de Instrucción ocultas temporalmente — reactivar agregando ...macrosInstruccion acá
 
 // Vincula cada código 10 de la sección Reglas con su macro correspondiente (si existe)
 const macroByCode10 = {};
