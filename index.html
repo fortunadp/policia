@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Laguna PD</title>
+<title>Fortuna PD</title>
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
@@ -1429,7 +1429,7 @@ body.mapa-fullscreen .academia-placeholder {
     <img src="wspd_seal.png" alt="Sello WSPD">
     <div class="pd-banner-text">
       <div class="line1">Departamento de Policía</div>
-      <div class="line2">LAGUNA</div>
+      <div class="line2">Fortuna</div>
     </div>
   </div>
   <img class="pd-banner-photo" src="wspd_banner.png" alt="Oficiales WSPD">
@@ -1733,16 +1733,16 @@ const macrosGenerales = [
 ["ABANDONAR AREA", "/me ¡ABANDONE EL ÁREA O SERÁ ARRESTADO (A) / DETENIDO (A)!"],
 ["BALIZA", "/me POR NO SEGUIR MIS ÓRDENES, LE HE COLOCADO UN DISPOSITIVO DE RASTREO."],
 ["DOCUMENTOS", "/me CIUDADANO PORFAVOR PERMITAME SUS DOCUMENTOS. "],
-["PRESENTACION", "/me HOLA, SOY EL (RANGO AQUÍ) (TU NOMBRE AQUÍ). SOY UN OFICIAL DE LA POLICÍA DEL ESTADO DE LA COSTA OESTE DE LAGUNA. ¿CÓMO LE PUEDO AYUDAR?"],
+["PRESENTACION", "/me HOLA, SOY EL (RANGO AQUÍ) (TU NOMBRE AQUÍ). SOY UN OFICIAL DE LA POLICÍA DEL ESTADO DE LA COSTA OESTE DE Fortuna. ¿CÓMO LE PUEDO AYUDAR?"],
 ["MAXIMO RESPETO", "/me MI MÁXIMO RESPETO SR(A) [ETIQUETA DE RANGO]. ¡SU NOMBRE, PRESENTÁNDOSE!"],
 ["REGISTRAR DOCUMENTOS", "/do REGISTRANDO LOS DOCUMENTOS AL SOSPECHOSO."],
 ["PUEDE RETIRARSE", "/me SOSPECHOSO LIMPIO. PUEDE RETIRARSE."],
 ["DETENCION", "/me ¡ESTÁ SIENDO DETENIDO, NO ARRESTADO! ¡POR FAVOR, SÍGUEME!"],
-["ARRESTO", "/me [POLICÍA DE LAGUNA] CIUDADANO. USTED ESTÁ ARRESTADO. TIENE DERECHO A GUARDAR SILENCIO. TODO LO QUE DIGA PUEDE SER USADO EN SU CONTRA."],
+["ARRESTO", "/me [POLICÍA DE Fortuna] CIUDADANO. USTED ESTÁ ARRESTADO. TIENE DERECHO A GUARDAR SILENCIO. TODO LO QUE DIGA PUEDE SER USADO EN SU CONTRA."],
 ["ORDENES DE ARRESTO", "/me ¡HAS SIDO ARRESTADO PORQUE TIENES ÓRDENES DE ARRESTO! ¡USTED ESTÁ EN LA LISTA DE LOS MÁS BUSCADOS!"],
 ["BODYCAM", "/do CONFIRMA QUE LA CÁMARA CORPORAL ESTÁ ACTIVADA."],
 ["ZONA VERDE", "/me ¡ÚLTIMA ADVERTENCIA! ¡ABANDONA LA ZONA AHORA O SERÁS ACUSADO DE UN 1.7 Y 3.2! ¡ESTA ES UNA ZONA VERDE, NO UNA ZONA DE RECREO!"],
-["APAGUE EL MOTOR", "/me [POLICÍA DE LAGUNA] CIUDADANO, POR FAVOR, DETÉNGASE Y APAGUE EL MOTOR"],
+["APAGUE EL MOTOR", "/me [POLICÍA DE Fortuna] CIUDADANO, POR FAVOR, DETÉNGASE Y APAGUE EL MOTOR"],
 ].map(([label, text], i) => ({cat:"Macros", sub:"Macros Generales", code:`M${i+1}`, label, macroText:text, isMacro:true}));
 
 const macrosCodigo10 = [
@@ -2150,7 +2150,7 @@ btnComoAgregarMacros.addEventListener('click', () => {
 // Ya no viven en ningún archivo: viven en el KV del Worker y se piden en
 // vivo. NIVELES_ROL/rolAlcanza siguen viniendo de codigos.js (no son
 // sensibles, es solo la comparación de niveles).
-const API_URL = "https://asistencia-lagunapd.popj951203.workers.dev/";
+const API_URL = "https://fortunadp.github.io/policia/index.html";
 let instruccionDesbloqueada = false;
 const SUB_INSTRUCCION = "Macros de Instrucción";
 
@@ -2945,7 +2945,7 @@ window.addEventListener('message', e => {
 <div class="siren-glow-right"></div>
 <footer class="pd-footer">
   <div class="siren-strip"></div>
-  <p>Herramienta de referencia no oficial, hecha por y para jugadores del Departamento de Policía de Laguna (OneState RP).</p>
+  <p>Herramienta de referencia no oficial, hecha por y para jugadores del Departamento de Policía de Fortuna (OneState RP).</p>
   <p>No afiliado ni respaldado oficialmente por ChillGaming, Ltd.</p>
   <p>Las imágenes y recursos visuales utilizados pertenecen a sus respectivos propietarios y se muestran únicamente con fines informativos y comunitarios.</p>
   <p>Última actualización: Julio 2026</p>
